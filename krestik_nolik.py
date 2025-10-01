@@ -47,8 +47,7 @@ for iteracija in range(9):
         except ValueError:
             print("Нужно ввести число от 1 до 9!")
             continue
-    else:
-        # ход компьютера
+    elif player == computer:  # компьютер
         Parodija_na_GPT = [cell for cell in game if isinstance(cell, int)]
         move = random.choice(Parodija_na_GPT)
         print(f"Компьютер ({player}) походил в клетку {move}")
