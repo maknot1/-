@@ -38,7 +38,7 @@ print_board(game)
 
 # переменная для игрока
 player = vibor
-
+move = None
 for iteracija in range(9):
     if player == vibor:
         # ход игрока
